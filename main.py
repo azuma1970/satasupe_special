@@ -15,6 +15,12 @@ def main():
         dice_num1 = random.randrange(1, 6, 1)
         print('%s = %d' %(var, dice_num1))
     
+    if var == '2d6':
+        dice_num1 = random.randrange(1, 6, 1)
+        dice_num2 = random.randrange(1, 6, 1)
+        tmp = dice_num1 + dice_num2
+        print('%s = %d + %d = %d' %(var, dice_num1, dice_num2, tmp))
+
 
 
     else:
