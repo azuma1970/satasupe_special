@@ -1,7 +1,7 @@
 """ 
 This program is a dice program
 
-code by yuki.M
+1d6 or 2d6 input
 """
 
 import sys, random
@@ -28,7 +28,6 @@ def main():
             list_int_dice_num = Funk_dice_roll(str_dice)
             print('{} = {}\n'.format(str_dice, list_int_dice_num))
 
-        
         elif str_dice == '2d6':
             Funk_dice_roll(str_dice)
             list_int_dice_num = Funk_dice_roll(str_dice)
@@ -41,11 +40,12 @@ def main():
             print('%s = %d + %d = %d\n' %(str_dice, tmp1, tmp2, result))
             if result == 2:
                 print('！！ファンブル！！\n')
+
         elif str_dice == 'exit':
             sys.exit()
 
         else:
-            print('エラー\n')
+            print('入力文字エラー\n')
 
 
 if __name__ == "__main__":
