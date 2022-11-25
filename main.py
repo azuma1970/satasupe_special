@@ -4,16 +4,19 @@ This program is a dice program
 """
 
 import random
-#dice_num = 0
+dice_num = 0
+
 
 def main():
-    print('dice program')
-    """
+    print('dice program')    
     var = input("Please input : ")
-    print(var)
-    """
-    dice_num = random.randrange(1, 6, 1)
-    print(dice_num)
+
+    if var == '1d6':
+        dice_num = random.randrange(1, 6, 1)
+        print(dice_num)
+
+    else:
+        print("エラー")
 
 
 
