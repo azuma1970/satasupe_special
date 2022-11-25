@@ -2,6 +2,7 @@
 This program is a dice program
 
 1d6 or 2d6 input
+exit = Program end
 """
 
 import sys, random
