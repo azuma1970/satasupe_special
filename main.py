@@ -10,7 +10,6 @@ import sys, random
 def Funk_dice_roll(str_dice):
     list_int_dice_num = []
     list_dice = list(str_dice)
-    print(list_dice)
     dice_num1 = int(list_dice[0])
     dice_num2 = int(list_dice[2])
     for i in range(dice_num1):
@@ -26,7 +25,8 @@ def main():
 
         if str_dice == '1d6':
             list_int_dice_num = Funk_dice_roll(str_dice)
-            print('{} = {}\n'.format(str_dice, list_int_dice_num))
+            tmp = list_int_dice_num[0]
+            print('{} = {}\n'.format(str_dice, tmp))
 
         elif str_dice == '2d6':
             Funk_dice_roll(str_dice)
@@ -40,6 +40,7 @@ def main():
             print('%s = %d + %d = %d\n' %(str_dice, tmp1, tmp2, result))
             if result == 2:
                 print('！！ファンブル！！\n')
+    
 
         elif str_dice == 'exit':
             sys.exit()
