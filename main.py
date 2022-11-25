@@ -29,8 +29,11 @@ def main():
         elif var == 'exit':
             sys.exit()
 
+
+
         else:
             print('エラー\n')
+
 
 
 
