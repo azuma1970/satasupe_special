@@ -26,7 +26,7 @@ def main():
         if str_dice == '1d6':
             list_int_dice_num = Funk_dice_roll(str_dice)
             tmp = list_int_dice_num[0]
-            print('{} = {}\n'.format(str_dice, tmp))
+            print('%s = %d\n' %(str_dice, tmp))
 
         elif str_dice == '2d6':
             Funk_dice_roll(str_dice)
