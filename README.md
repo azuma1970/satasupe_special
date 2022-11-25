@@ -4,12 +4,13 @@
 
 TRPGの素振りにどうぞ
 
+1d6、2d6に対応
 
 # DEMO
 
 イメージ図
 
-工事中
+![](https://github.com/azuma1970/satasupe_special/blob/master/dice.jpg)
  
 # Features
  
@@ -25,7 +26,9 @@ TRPGの素振りにどうぞ
  
 # Usage
 
-工事中
+"1d6"もしくは"2d6"を入力
+
+終了するときは"exit"と入力
  
 # Note
  
